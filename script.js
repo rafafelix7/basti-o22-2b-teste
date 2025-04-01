@@ -46,4 +46,11 @@ ScrollReveal().reveal('#galeria', { delay: 500 });
 ScrollReveal().reveal('#contato', { delay: 500 });
 color: var(--alto-contraste-texto);
 }
-   
+function comecaCronometro(){
+    setInterval(atualizaCronometro,1000);
+}console.log(Math.ceil(4.2));  // Saída: 5
+console.log(Math.ceil(9.8));  // Saída: 10
+console.log(Math.floor(7.9));  // Saída: 7
+console.log(Math.floor(2.1));  // Saída: 2
+console.log(Math.round(3.4));  // Saída: 3
+console.log(Math.round(5.7));  // Saída: 6
